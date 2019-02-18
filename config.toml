@@ -1,0 +1,52 @@
+baseURL = "http://example.org"
+languageCode = "en-us"
+title = "Christopher Fu"
+theme = "minimo"
+
+[params.sidebar]
+enable = true
+
+[params.widgets]
+header = ["breadcrumbs"]
+homepage = ["recent_posts"]
+sidebar = ["search", "sidebar_menu", "taxonomy_cloud"]
+
+[params.settings]
+dateFormat = "Jan 02, 2006"
+listDateFormat = "Jan 02, 2006"
+showLastmod = true
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+
+[menu]
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = -1
+
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/posts/"
+weight = 1
+
+[[menu.main]]
+identifier = "projects"
+name = "Projects"
+url = "/projects/"
+weight = 2
+
+[[menu.main]]
+identifier = "anime"
+name = "Anime"
+url = "/anime/"
+weight = 3
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 4
