@@ -1,7 +1,6 @@
 ---
 title: "Anime"
 date: 2019-02-17T16:10:15-08:00
-draft: true
 ---
 
 A collection of my thoughts on various anime series that I've watched.

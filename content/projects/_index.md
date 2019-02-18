@@ -1,7 +1,6 @@
 ---
 title: "Projects"
 date: 2019-02-17T02:36:54-08:00
-draft: true
 ---
 
 My current side project is [Minecrust](https://github.com/chrisf1337/minecrust), a game that I'm
