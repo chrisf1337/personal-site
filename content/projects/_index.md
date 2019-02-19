@@ -10,7 +10,7 @@ I'm striving to write as much of the voxel engine stuff from scratch as possible
 super early stages right now, but I plan to keep chipping away at it on the weekends and after
 work for as long as I can remain motivated about it.
 
-Here's a screenshot of its current state:
+Here's a screenshot of it in its current state:
 ![Feb. 17, 2019](/2019-02-17.png)
 
 My [GitHub profile](https://github.com/chrisf1337) shows my current and past projects.
