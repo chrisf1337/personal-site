@@ -49,6 +49,8 @@ lastmod: 2019-02-18
   data to disk is slow compared to reading and writing data to RAM, but hard drives can store much
   more data than RAM and can keep this data even after the computer is powered off.
 
+  ![Hard drive](/glossary/hard-drive.jpg)
+
 - <a name="high-level-programming-language"></a> high-level programming language: A programming
   language that [*abstracts*](#abstraction) away from the programmer more details about how the
   computer executes a program. Typically, high-level languages are easier to use and understand,
