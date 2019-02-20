@@ -1,7 +1,7 @@
 ---
 title: "A (Mostly) Jargon-Free Glossary of Programming Terms"
 date: 2019-02-18T20:25:05-08:00
-lastmod: 2019-02-18
+lastmod: 2019-02-19
 ---
 
 # Table of contents
@@ -19,6 +19,11 @@ lastmod: 2019-02-18
 - address: A location in [memory](#memory). Most [high-level
   languages](#high-level-programming-language) [abstract](#abstraction) the concept of memory
   addresses away from the programmer.
+
+# <a name="B"></a> B
+- branch: A splitting off from a common source of code (either another branch, or the
+  [master](#master) branch) that allows you to work on a feature without affecting the progress of
+  other parallel branches. See also: [version control](#version-control).
 
 # <a name="C"></a> C
 - <a name="client"></a> client: A computer (or, depending on the context, a program) that
@@ -47,7 +52,7 @@ lastmod: 2019-02-18
   mechanical device consisting of magnetic platters (literally a metal *disk*) that store data
   and an arm with a magnetic head that reads and writes data to the platters. Reading and writing
   data to disk is slow compared to reading and writing data to RAM, but hard drives can store much
-  more data than RAM and can keep this data even after the computer is powered off.
+  more data for less cost and can keep this data even after the computer is powered off.
 
   ![Hard drive](/glossary/hard-drive.jpg)
 
@@ -63,7 +68,7 @@ lastmod: 2019-02-18
 
 # <a name="L"></a> L
 - <a name="local"></a> local: Refers to something on the same computer, as compared to something on
-  a different computer. See also: [network](#network).
+  a different computer ([remote](#remote)). See also: [network](#network).
 
 - <a name="low-level-programming-language"></a> low-level programming language: A programming
   language that [*abstracts*](#abstraction) away from the programmer fewer details about how the
@@ -71,23 +76,47 @@ lastmod: 2019-02-18
   [high-level programming language](#high-level-programming-language).
 
 # <a name="M"></a> M
+- <a name="master"></a> master: The name commonly given to the main, canonical branch of
+  development. A common action to start working on a feature might be to make a new *development*
+  (or *dev*) branch from *master*. Once you are done with development on that branch, you
+  [merge](#merge) it back into *master*.
+
 - <a name="memory"></a> memory: Computers have hardware that allow them to store data for some
   period of time. Depending on the type of memory, data can be kept in memory for as long as it
   is receiving power (*volatile* memory), or it can be kept even after it is powered down
   (*non-volatile* memory). In most contexts, the term *memory* refers to random access memory
   (RAM). When you run a program, it is first loaded into RAM before it is executed so that the
   CPU can read it.
-- <a name="metadata"></a> metadata:
+
+- <a name="merge"></a> merge: The act of combining two branches back into one. Once your work on a
+  feature in a separate branch is complete, you usually *merge* your feature branch into *master*.
+
+- <a name="metadata"></a> metadata: Literally, data about data. One example might be metadata for
+  files: the file itself is the actual data, and the time it was last modified, its size, etc. would
+  be the metadata.
 
 # <a name="N"></a> N
 - <a name="network"></a> network: Many mutually connected computers that can talk to each other. The
   Internet is a vast *network* of computers located around the world that uses the Internet
   protocol (IP) suite to communicate.
 
+# <a name="P"></a> P
+- <a name="pull"></a> pull: In Git, the act of pulling retrieves work from other developers (or
+  even yourself) from a *remote* to your local machine. This allows you to work on the code locally.
+
+- <a name="push"></a> push: In Git, the act of pushing publishes your work to a [remote](#remote).
+  This makes it visible to other developers and also saves a copy of your work to the *remote*.
+
 # <a name="R"></a> R
+- <a name="remote"></a> remote: Refers to something on a separate computer, as compared to something
+  [local](#local). In Git, a *remote* repository (simply called a *remote*) is a repository
+  located on another computer. You can collaborate with other developers by [pushing](#push) your
+  work to and [pulling](#pull) other people's work from a common *remote*. In Git, the main
+  *remote* is usually named *origin* by convention.
+
 - <a name="repository"></a> repository: Also *repo* for short. A collection of files and
   associated [metadata](#metadata) that help developers keep track of code and the history of
-  changes made to taht code. Closely tied to the concept of [version control](#version-control).
+  changes made to that code. Closely tied to the concept of [version control](#version-control).
 
 # <a name="S"></a> S
 - <a name="server"></a> server: A computer (or, depending on the context, a program) connected to
@@ -95,7 +124,8 @@ lastmod: 2019-02-18
   Internet, our web browser (Chrome, Firefox, Safari, etc.) is a client that requests data from a
   server (e.g. Google servers, Facebook servers), which then respond to our browser with data
   (HTML, CSS, JavaScript). Our web browser then *renders* this content into something that it can
-  draw on the computer screen as a graphical representation of the data provided by the server.
+  draw on the computer screen as a graphical representation of the data provided by the
+  server---the actual webpage.
 
 - <a name="source-code"></a> source code: Also *source* for short. The file containing the actual
   text of code (hence the name *source*) that we write. For example, if we are writing Python, we
