@@ -29,6 +29,11 @@ lastmod: 2019-02-19
 - <a name="client"></a> client: A computer (or, depending on the context, a program) that
   requests data from a [server](#server).
 
+- <a name="commit"></a> commit: In Git, a logical collection of changes that can be annotated with a
+  message to describe what the changes are and the reasoning behind them. The commit is the main
+  object that Git allows you to manipulate---you can reorder commits, change their contents, move
+  them between branches, and more.
+
 # <a name="D"></a> D
 - <a name="directory"></a> directory: A grouping of files on the filesystem. Synonymous with
   *folder*. By placing files and other directories into directories, we form a hierarchy of files on
@@ -102,7 +107,8 @@ lastmod: 2019-02-19
 
 # <a name="P"></a> P
 - <a name="pull"></a> pull: In Git, the act of pulling retrieves work from other developers (or
-  even yourself) from a *remote* to your local machine. This allows you to work on the code locally.
+  even yourself) from a [*remote*](#remote) to your local machine. This allows you to work on the
+  code locally.
 
 - <a name="push"></a> push: In Git, the act of pushing publishes your work to a [remote](#remote).
   This makes it visible to other developers and also saves a copy of your work to the *remote*.
@@ -111,8 +117,8 @@ lastmod: 2019-02-19
 - <a name="remote"></a> remote: Refers to something on a separate computer, as compared to something
   [local](#local). In Git, a *remote* repository (simply called a *remote*) is a repository
   located on another computer. You can collaborate with other developers by [pushing](#push) your
-  work to and [pulling](#pull) other people's work from a common *remote*. In Git, the main
-  *remote* is usually named *origin* by convention.
+  work to and [pulling](#pull) other people's work from a common remote. In Git, the main remote
+  is usually named *origin* by convention.
 
 - <a name="repository"></a> repository: Also *repo* for short. A collection of files and
   associated [metadata](#metadata) that help developers keep track of code and the history of
