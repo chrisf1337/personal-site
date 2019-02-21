@@ -23,7 +23,7 @@ Things I didn't like:
   superior mecha, but for some reason they don't build a squadron around it and instead send it
   willy-nilly dashing through enemy lines to get it captured over and over again? By the same
   trick too. What?
-- Also aren't the Britannian's a little too laidback about having lost Gawain? Lelouch literally
+- Also aren't the Britannians a little too laidback about having lost Gawain? Lelouch literally
   strolled into a cave, rode out in their OP prototype mecha (it literally flies), and all they
   have to say about is this:
   ![](/anime/code-geass/s1e19-cave.png)
