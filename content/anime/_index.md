@@ -5,11 +5,8 @@ date: 2019-02-17T16:10:15-08:00
 
 A collection of my thoughts on various anime series that I've watched.
 
-After watching an episode (or possibly multiple episodes if I'm marathoning something), I'll
-write a short post that describes my thoughts. These will be simple---simply what I liked and
-what I disliked. After I finish (or drop) something, I'll then write a post that's more
-review-like, evaluating the series on the following criteria using a 4 point scale and giving my
-overall impression on the series:
+I'll be writing posts on series that I finish (or drop), evaluating them on the following
+criteria using a 4 point scale and giving my overall impression on the series:
 
 - **Art:** This includes character design, animation, framing, backgrounds, etc. Probably the
   most important aspect of a series for me. Call me shallow, but if the art's not good, it's
