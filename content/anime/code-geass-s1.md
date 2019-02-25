@@ -1,6 +1,7 @@
 ---
 title: "Code Geass S1"
 date: 2019-02-23
+lastmod: 2019-02-24
 categories: ["anime", "code-geass"]
 tags: ["series-review"]
 ---
@@ -20,10 +21,13 @@ but there's just something offputting (I would go so far to even say *alien*) ab
 the characters in Code Geass look. But when animated, the characters look fine, and I think that
 Cornelia and CC have particularly nice character designs and outfits.
 
-The mecha designs are pretty down to earth. Most mechas do this skating thing, which is the first
-time I've seen something like that in a mecha show. I'm on the fence about this---on the one
-hand, it does look cool when they actually skate (e.g. Lancelot), but on the other hand, most
-mechas just statically wheel forward, which decidedly does not look cool.
+The mecha designs are pretty down to earth. Most mechas neither fly nor run. Instead, they do
+this skating thing on wheels, which is the first time I've seen something like that in a mecha
+show. I'm on the fence about this---on the one hand, it does look cool when they actually skate
+(e.g. Lancelot), but on the other hand, most just statically wheel forward, which decidedly does
+not look cool. They also have grappling hooks that they can use for both mobility and offense,
+which is an interesting idea I have also never seen before. I appreciate the show's taking
+creative liberties with how the mechas operate.
 
 Background art is nothing spectacular. I would say that the art in general is pretty much par for
 the course. There's nothing egregiously bad, but there's also nothing eyepoppingly good. I do
